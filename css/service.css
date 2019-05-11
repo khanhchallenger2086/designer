@@ -1,0 +1,58 @@
+
+
+
+
+
+.service-box img {
+	width: 128px;
+	height: 128px;
+}
+
+.service-box p{
+	font-size: 14px;
+	color: white;
+}
+
+/* SEC-3 */
+
+
+.sec-3 h2 {
+	color: white;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+/* SEC-4 */
+
+.logo-inner {
+	float: left;
+	width: 33.33333%;
+	padding: 15px;
+	
+}
+
+@media (max-width: 1200px) {
+	.row {
+		display: block;
+	}
+
+	.sec-3 .max100 {
+		width: 80%;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.sec-3 .max100 {
+		width: 60%;
+	}
+}

@@ -1,0 +1,189 @@
+/* SEC-2 */
+
+.sec-2 h3 {
+	font-size: 30px;
+	color: #fcbf10;
+}
+
+/* SEC-3 */
+.sec-3 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.sec-3 .container {
+	width: 50%;
+}
+
+.sec-3 img {
+	width: 100px;
+	height: auto;
+}
+
+.sec-3-txt {
+	font-size: 50px;
+	color: white;
+}
+
+.sec-3-txt span {
+	color: yellow;
+	font-weight: 500;
+}
+
+/* SEC-4 */
+
+.sec-4 img {
+	width: 100%;
+}
+
+/* SEC-5 */
+
+.sec-5-txt {
+	color: white;
+	font-size: 36px;
+}
+
+.sec-5-txt span {
+	color: #fcbf10;
+}
+
+.arrow-right {
+	float: right;
+	display: inline-block;
+	border-radius: 50%;
+	border: 13px solid #212529;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.arrow-right span {
+	padding: 20px 0px;
+	display: inline-block;
+	background-color: #fcbf10;
+	border-radius: 50%;
+}
+
+.arrow-right img {
+	width: 50%;
+}
+
+.arrow-right:hover {
+	box-shadow: rgba(255, 255, 255, 0.5) 0 0 10px;
+}
+
+		/* SEC-5-List*/
+.sec-5-list .list-inner {
+	float: left;
+}
+
+.list-inner {
+	width: 20%;
+	padding: 10px;
+}		
+
+.list-inner img {
+	width: 100%;
+}
+
+
+/* SEC-6 */
+
+.sec-6 .well {
+	padding: 0px;
+	border: none;
+}
+
+.sec-6 .well img {
+	width: 100%;
+}
+
+/* SEC-7 */
+
+.center {
+	width: 50%;
+	margin: auto;
+}
+
+.center img {
+	margin: auto;
+	width: 100%;
+}
+
+.slick-slide {
+	transform: scale(0.8,0.8);
+	transition: 0.5s;
+}
+
+.slick-center {
+	transform: scale(1,1);
+}
+
+@media (max-width: 992px) {
+	.sec-2 .row {
+		display: block;
+	}
+
+	.sec-2 img {
+		margin-top: 20px;
+	}
+
+	.sec-5 .row {
+		display: block;
+	}
+
+	.sec-5 .p-txt-white {
+		font-size: 25px;
+	}
+
+	.sec-6 .row {
+		display: block;
+	}
+
+	.sec-3-txt {
+		font-size: 35px;
+	}
+
+}
+
+
+@media (max-width: 768px) {
+	.sec-6 .row {
+		display: block;
+	}
+
+	
+
+
+	.container {
+		max-width: 550px;
+	}
+
+
+	.list-inner {
+		width: 33.33333%;
+	}
+
+	.center {
+		width: 80%;
+	}
+}
+
+@media (max-width: 600px) {
+	.row {
+		margin-top: 10px;
+	}
+
+	.sec-5-txt {
+		font-size: 30px;
+		line-height: 40px;
+		margin-top: 0px;
+	}
+
+
+	.slide-designer {
+		height: 50vh;
+	}
+
+
+
+}

@@ -1,0 +1,50 @@
+.sec-2 h1 {
+	color: white;
+}
+
+.slide-item {
+	/*display: inline-block;*/
+	margin-top: 20px;
+}
+
+.sec-2 .active:before {
+	width: 100%;
+	left: 0;
+}
+
+.slide-item li {
+	float: left;
+	margin: 10px 20px;
+}
+
+.slide-item li a {
+	text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 0px;
+    position: relative;
+    transition: 0.5s;
+    color: #ddd;
+}
+
+.slide-item li a:hover {
+	color: white;
+}
+
+.slide-item li a:before {
+	content: '';
+	left: 50%;
+	bottom: 0px;
+	width: 0%;
+	height: 2px;
+	position: absolute;
+	background-color: orange;
+	transition: 0.5s;
+}
+
+.slide-item li a:hover:before {
+	width: 100%;
+	left: 0;
+}
+
+

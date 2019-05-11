@@ -1,0 +1,169 @@
+
+.slide-project {
+	background-image: url(../img/slide-project.jpg);
+}
+
+/* SEC-2 */
+
+.sec-2 .service-box {
+	padding: 50px 0px;
+	background-color: #323940;
+}
+
+/* SEC-3 */
+
+.project_name {
+	font-size: 30px;
+    color: yellow;
+}
+
+.project__name {
+	font-size: 25px;
+	color: white;
+}
+
+.project_type {
+	font-size: 16px;
+    color: #ccc;
+}
+
+.project_desc {
+	color: white;
+}
+
+.project_lang {
+	color: #6b7782;
+	text-transform: uppercase;
+}
+
+.project_link {
+	color: yellow;
+	cursor: pointer;
+}
+
+.project_link img {
+	width: 25px;
+	margin-left: 5px;
+}
+
+.sec-3 .row {
+	margin-top: 100px;
+}
+
+/* Sec-4 */
+.project-item {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.project-bg {
+	position: absolute;
+	background-color: black;
+	opacity: 0.5;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	transition: 0.5s;
+	z-index: 1;
+	display: none;
+}
+
+.project-desc {
+	left: 0px;
+	color: white;
+	bottom: -100%;
+	position: absolute;
+	transition: 0.5s;
+	padding: 0px 30px;
+	z-index: 2;
+}
+
+.project-item:hover .project-bg {
+	display: block;
+}
+
+.project-item:hover .project-desc {
+	bottom: 5%;
+}
+
+.project-item:hover img {
+	transform: scale(1.1,1.1);
+	transition-duration: 1s;
+}
+
+.sec-4 .row {
+	display: block;
+}
+
+.sec-4 .container {
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.row {
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	section .container {
+		width: 540px;
+	}
+}
+
+@media (max-width: 600px) {
+	section .container {
+		padding: 0px 20px;
+	}
+
+	.project-desc {
+		font-size: 12px;
+	}
+}
+
+/* Css zoom pan image mouse move*/
+  @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
+  body {
+    background: #fff;
+    color: #000;
+    margin: 0;
+  }
+
+
+
+  .tile {
+    position: relative;
+ 	width: 100%;
+ 	
+    height: 100%;
+    overflow: hidden;
+
+  }
+
+  .tile img {
+  	width: 100%;
+  	height: 100%
+  }
+	
+.txt {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    cursor: default;
+  }
+
+  .x {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
